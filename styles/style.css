@@ -1,0 +1,37 @@
+
+
+*{
+    margin: 0;
+}
+
+.primary-btn{
+    margin: 0;
+    background-color: rgb(224, 44, 109);
+    padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    background-color: rgb(45, 37, 160);
+} 
+nav{
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+nav ul {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
