@@ -71,14 +71,35 @@ nav ul {
 }
 /* banner section end  */
 /* header section end */
+.player-container{
+    margin: 4rem auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
 
+.player-content img{
+    width: 100%;
+}
+.player-content h3{
+    margin: 16px 0;
+    color: rgb(24, 25, 31);
+    font-size: 28px;
+    font-weight: 700;
+}
+.player-content p{
+    color: rgb(108, 108, 108);
+}
 
 
 
 
 /* responsive */
-@media screen and (mix-width: 1440px){
-    .banner-title h1{
-        
+@media screen and (min-width: 1440px){
+    nav,
+    .banner-container,
+    .player-container{
+        max-width: 1440px;
     }
 }
